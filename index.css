@@ -26,6 +26,62 @@ html {
     scroll-behavior: smooth;
 }
 
+/* header styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--dark-red);
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: var(--box-shadow);
+
+}
 .logo {
     max-width: 15%;
+    height: auto;
+}
+
+.navbar a {
+    font-size: 1.7rem;
+    padding: 0.5rem 1.5rem;
+    color: var(--light-color);
+    border: 0.1rem solid transparent;
+}
+.navbar a.active, 
+.navbar a:hover {
+    color: #fff;
+    border: 0.1rem solid rgba(205,170,124,0.2);
+}
+
+.icons i {
+    cursor: pointer;
+    margin-left: 0.5rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    background: var(--light-color);
+    text-align: center;
+    font-size: 1.7rem;
+    color: var(--red);
+}
+.icons i:hover {
+    color: #fff;
+    background: transparent;
+}
+.icons #menu {
+    display: none;
+}
+/* navbar styling ends */
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 1rem 2rem;
+    }
 }
