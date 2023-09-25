@@ -96,7 +96,12 @@ header {
 }
 .content-section h1, h2 {
     font-weight: 300;
+}
+.content-section h1 {
     font-size: 2.7rem;
+}
+.content-section h2 {
+    font-size: 3rem;
 }
 .content-section a {
     font-weight: 200;
@@ -165,4 +170,18 @@ header {
         font-size: 2rem;
         background: var(--dark-red);
     }
+
+    /* hero section media query */
+    .home {
+        justify-content: center;
+        height: 80vh;
+    }
+    .home .content-section {
+        padding: 0;
+    }
+    .home .content-section h2 {
+        font-size: 4rem;
+        font-weight: 400;
+    }
+
 }
