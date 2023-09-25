@@ -114,6 +114,21 @@ header {
     padding: 0.8rem 3rem;
     position: relative;
     overflow: hidden;
+    z-index: 1;
+}
+.content-section .btn:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--dark-red);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 0.5s;
+}
+.content-section .btn:hover.btn:before {
+    left: 0;
 }
 
 @media (max-width: 991px) {
