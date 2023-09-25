@@ -83,6 +83,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    object-fit: contain;
     text-align: center;
 }
 .content-section {
@@ -100,6 +101,19 @@ header {
 .content-section a {
     font-weight: 200;
     font-size: 1.8rem;
+}
+.content-section .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    background: transparent;
+    border: #333 solid 0.1rem;
+    box-shadow: 0.4rem 0.4rem rgba(0,0,0,.1);
+    cursor: pointer;
+    padding: 0.8rem 3rem;
+    position: relative;
+    overflow: hidden;
 }
 
 @media (max-width: 991px) {
