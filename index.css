@@ -77,7 +77,7 @@ header {
 }
 /* navbar styling ends */
 
-/* hero section */
+/* hero styling */
 .home {
     background: url(grafik/ivan-vashchenko-j59VBTAGBi8-unsplash\ \(kopia\).jpg);
     background-size: cover;
@@ -135,6 +135,16 @@ header {
 .content-section .btn:hover.btn:before {
     left: 0;
 }
+/* hero styling ends */
+
+/* welcome styling  */
+.welcome-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+
 
 @media (max-width: 991px) {
     html {
