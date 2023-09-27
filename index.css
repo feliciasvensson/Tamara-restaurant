@@ -145,6 +145,7 @@ header {
     text-align: center;
     color: var(--dark-red);
     font-size: 3rem;
+    font-weight: 400;
     padding-bottom: 2rem;
     text-transform: uppercase;
     letter-spacing: 1.3px;
@@ -269,6 +270,6 @@ header {
         width: 100%;
     }
     /* menu section media query */
-    
+
 
 }
