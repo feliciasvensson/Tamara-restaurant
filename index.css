@@ -192,7 +192,10 @@ header {
     background: url(grafik/isra-e-SHJMuYQSRn8-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 92vh;
+}
+.our-menu .menu-heading {
+    padding-top: 7rem;
 }
 .our-menu .menu-container {
     padding: 8rem 25%;
