@@ -138,11 +138,8 @@ header {
 /* hero styling ends */
 
 /* welcome styling  */
-.welcome-image {
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
+.welcome {
+    padding: 8rem 9%;
 }
 .heading {
     text-align: center;
@@ -156,7 +153,27 @@ header {
 .welcome .box-container {
     display: flex;
     gap: 1.5rem;
-    
+}
+.welcome .box-container .box {
+    width: 33%;
+    background: var(--dark-red);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding-bottom: 1%;
+}
+.welcome .box-container .box .welcome-image {
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.welcome .box-container .box .welcome-image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.welcome-content p {
+    color: var(--light-color);
 }
 
 
