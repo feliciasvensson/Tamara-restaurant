@@ -234,5 +234,12 @@ header {
         font-size: 4rem;
         font-weight: 400;
     }
+    /* welcome section */
+    .welcome .box-container {
+        flex-wrap: wrap;
+    }
+    .welcome .box-container .box {
+        width: 100%;
+    }
 
 }
