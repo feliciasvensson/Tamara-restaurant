@@ -144,6 +144,20 @@ header {
     height: 80vh;
     width: 100%;
 }
+.heading {
+    text-align: center;
+    color: var(--dark-red);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+.welcome .box-container {
+    display: flex;
+    gap: 1.5rem;
+    
+}
 
 
 @media (max-width: 991px) {
