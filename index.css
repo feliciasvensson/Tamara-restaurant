@@ -137,7 +137,7 @@ header {
 }
 /* hero styling ends */
 
-/* welcome styling  */
+/* welcome styling */
 .welcome {
     padding: 8rem 9%;
 }
@@ -184,6 +184,18 @@ header {
     font-weight: 300;
     padding: 0.5rem 0;
     line-height: 1.5;
+}
+/* welcome styling ends */
+
+/* menu styling */
+.our-menu {
+    background: url(grafik/isra-e-SHJMuYQSRn8-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.our-menu .menu-container {
+    padding: 8rem 9%;
 }
 
 
