@@ -338,8 +338,8 @@ header {
     position: fixed;
     right: 2%;
     bottom: 10%;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     background: var(--red);
     color: var(--light-color);
     cursor: pointer;
