@@ -248,6 +248,9 @@ header {
     font-size: 1.8rem;
     font-weight: 300;
 }
+.reservation .reservation-form form input::placeholder {
+    color: var(--dark-red);
+}
 .reservation .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -337,6 +340,7 @@ header {
     }
     .welcome .box-container .box {
         width: 100%;
+        box-shadow: none;
     }
     
     /* menu section media query */
@@ -345,6 +349,17 @@ header {
     }
     .our-menu .menu-container {
         padding: 5rem 10%;
+    }
+
+    /* reservation media query */
+    .reservation .reservation-image {
+        width: 0;
+    }
+    .reservation .reservation-form {
+        width: 100%;
+    }
+    .reservation .reservation-form .form-holder {
+        display: block;
     }
 
 }
