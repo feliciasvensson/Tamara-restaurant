@@ -299,7 +299,6 @@ header {
     color: var(--light-color);
     grid-gap: 1rem;
     padding: 4rem 0;
-    border-bottom: solid var(--light-color) 0.1rem;
 }
 .footer .footer-container div {
     padding: 0 7rem;
@@ -341,7 +340,7 @@ header {
 .footer .copyright {
     padding: 2rem 0;
 }
-/* footer styling ends*/
+/* footer styling ends */
 
 /* jump to top button styling */
 .topbtn {
@@ -354,6 +353,7 @@ header {
     color: var(--light-color);
     cursor: pointer;
 }
+/* jump to top button styling ends */
 
 
 @media (max-width: 991px) {
