@@ -52,11 +52,9 @@ header {
     color: var(--light-color);
     border: 0.1rem solid transparent;
 }
+.navbar a.active,
 .navbar a:hover {
     color: #fff;
-    border: 0.1rem solid rgba(205,170,124,0.2);
-}
-.navbar a:active {
     border: 0.1rem solid rgba(205,170,124,0.2);
 }
 
