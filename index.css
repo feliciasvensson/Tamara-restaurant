@@ -234,6 +234,48 @@ header {
     width: 45%;
     padding: 9rem 7%;
 }
+.reservation .form-holder {
+    display: flex;
+    grid-gap: 3rem;
+    width: 100%;
+}
+.reservation .reservation-form form input,
+.reservation .reservation-form form select {
+    display: block;
+    margin: 2rem 0;
+    width: 100%;
+    border-bottom: solid var(--dark-red) 0.1rem;
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.reservation .btn {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: var(--dark-red);
+    background: transparent;
+    border: #333 solid 0.1rem;
+    box-shadow: 0.4rem 0.4rem rgba(0,0,0,.1);
+    cursor: pointer;
+    padding: 0.8rem 3rem;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.reservation .btn:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--light-color);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    transition: 0.5s;
+}
+.reservation .btn:hover.btn:before {
+    left: 0;
+}
 
 @media (max-width: 991px) {
     html {
