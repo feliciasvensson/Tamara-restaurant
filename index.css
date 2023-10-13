@@ -220,7 +220,7 @@ header {
     display: flex;
     width: 100%;
     height: 55vh;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .reservation .reservation-image {
     width: 55%;
@@ -228,6 +228,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0% 80%;
+    overflow: hidden;
     padding-top: 9rem;
 }
 .reservation .reservation-form {
@@ -245,7 +246,7 @@ header {
     margin: 2rem 0;
     width: 100%;
     border-bottom: solid var(--dark-red) 0.1rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 300;
 }
 .reservation .reservation-form form input::placeholder {
@@ -279,6 +280,58 @@ header {
 .reservation .btn:hover.btn:before {
     left: 0;
 }
+/* reservation styling ends */
+
+/* footer styling */
+.footer {
+    background: var(--dark-red);
+    text-align: center;
+    color: var(--light-color);
+    font-size: 1.3rem;
+}
+.footer .footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,2fr));
+    color: var(--light-color);
+    grid-gap: 1rem;
+    padding: 4rem 0;
+    border-bottom: solid var(--light-color) 0.1rem;
+}
+.footer .footer-container div {
+    padding: 0 7rem;
+}
+.footer .footer-container h3 {
+    font-size: 1.8rem;
+    padding-bottom: 0.8rem;
+}
+.footer .footer-container input {
+    width: 60%;
+    border: 1px solid var(--light-color);
+    padding: 0.5rem 0.8rem;
+    background: transparent;
+    /* border-radius: 20px; */
+}
+.footer .footer-container ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.footer .footer-container ul li a {
+    color: var(--light-color);
+    margin-left: 10px;
+    font-size: 18px;
+}
+.footer .footer-container span{
+    display: block;
+    color: var(--light-color);
+    padding-bottom: 0.5rem;
+}
+.footer .footer-container .footer-contact a {
+    color: var(--light-color);
+    padding-left: 1rem;
+}
+/* footer styling ends*/
 
 @media (max-width: 991px) {
     html {
