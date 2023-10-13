@@ -338,6 +338,9 @@ header {
     color: var(--light-color);
     padding-left: 1rem;
 }
+.footer .copyright {
+    padding: 2rem 0;
+}
 /* footer styling ends*/
 
 /* jump to top button styling */
@@ -425,6 +428,9 @@ header {
     }
 
     /* reservation media query */
+    .reservation {
+        height: 70vh;
+    }
     .reservation .reservation-image {
         width: 0;
     }
@@ -433,6 +439,11 @@ header {
     }
     .reservation .reservation-form .form-holder {
         display: block;
+    }
+
+    /* footer media query */
+    .footer .footer-container {
+        grid-gap: 4rem;
     }
 
 }
