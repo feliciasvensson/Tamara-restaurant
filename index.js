@@ -1,3 +1,4 @@
+// mobile navigation
 let menu = document.querySelector('#menu');
 let navbar = document.querySelector('.navbar');
 
@@ -6,6 +7,7 @@ menu.onclick = () => {
     navbar.classList.toggle('active');
 }
 
+// navbar active link on scroll
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 window.onscroll = () => {
