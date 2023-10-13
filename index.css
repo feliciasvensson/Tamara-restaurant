@@ -16,7 +16,7 @@
     box-sizing: border-box;
     text-decoration: none;
     border: none;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     transition: all .2s linear;
 }
 
@@ -105,6 +105,7 @@ header {
 }
 .content-section h2 {
     font-size: 3rem;
+    text-transform: capitalize;
 }
 .content-section a {
     font-weight: 200;
